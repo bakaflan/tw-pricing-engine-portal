@@ -1,3 +1,30 @@
 div {
-  color: red;
+    color: red;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    width: 153px;
+    height: 20px;
+    float: left;
+}
+
+.header-navigation {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-navigation li {
+    float: left;
 }
