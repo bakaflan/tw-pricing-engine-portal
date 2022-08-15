@@ -62,7 +62,7 @@ main {
 }
 
 .main-content-welcome {
-    background-image: url("../assets/hp_banner_about_us_campaign.png");
+    background-image: url("assets/hp_banner_about_us_campaign.png");
     min-height: 478px;
     width: 100%;
     background-repeat: no-repeat;
@@ -113,7 +113,7 @@ main {
 }
 
 .main-content-btn:after{
-    background: url("../assets/arrow-right-s-line.svg");
+    background: url("assets/arrow-right-s-line.svg");
     background-size: 20px 20px;
     filter: invert(1);
     content: " ";
