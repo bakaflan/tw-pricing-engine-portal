@@ -109,19 +109,16 @@ main {
     color: white;
     padding: 0;
     gap: 8px;
+    display: flex;
 }
 
 .main-content-btn:after{
+    background: url("../assets/arrow-right-s-line.svg");
+    background-size: 20px 20px;
+    filter: invert(1);
     content: " ";
-    display: inline-block;
-    transform: rotate(45deg);
-    height: .4rem;
-    width: .4rem;
-    border-width: 2px 2px 0px 0px;
-    border-color: white;
-    border-style: solid;
-    position: relative;
-    top: 0
+    height: 20px;
+    width: 20px;
 }
 
 .main-content-btn-div{
