@@ -8,7 +8,6 @@ const server = http.createServer((request, response) => {
     let filePath = request.url.includes('.') ? request.url : `${request.url === '/' ? '/' : request.url + '/'}index.html`;
     if (filePath.includes('assets')) {
         filePath = `${process.cwd()}${filePath}`
-        console.log(filePath)
     } else {
         filePath = `${process.cwd()}/src${filePath}`;
         response.setHeader('Access-Control-Allow-Origin', '*');
@@ -24,10 +23,9 @@ const server = http.createServer((request, response) => {
             response.end('<h2>404</h2>')
             return
         }
-        if(filePath.includes('svg')){
+        if(filePath.includes('.svg')){
             response.writeHead(200,{
-                'content-type': 'i' +
-                    'mage/svg+xml;charset=utf8'
+                'content-type': 'image/svg+xml;charset=utf8'
             })
         }
         response.end(result)
