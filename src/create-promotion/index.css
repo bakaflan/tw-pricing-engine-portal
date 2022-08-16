@@ -1,0 +1,60 @@
+.create-promotion-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-promotion-form-detail{
+    display: flex;
+    background: #EDF1F3;
+    justify-content: center;
+    width: 60%;
+}
+
+.create-promotion-form-detail ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+.create-promotion-form-detail li{
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.create-promotion-form-detail li>label {
+    width: 120px;
+}
+
+.single-selector-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-promotion-form-detail input,select{
+    height: 50px;
+    flex: 1 1 0;
+}
+
+.create-promotion-form-detail input,textarea,select {
+    flex: 1 1 0;
+    border: none;
+}
+
+.create-promotion-form-detail textarea{
+    overflow-wrap: inherit;
+    height: 190px;
+}
+
+.submit-btn{
+    justify-content: flex-end;
+}
