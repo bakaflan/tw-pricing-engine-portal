@@ -46,17 +46,17 @@
     <div class="main-table-content">
         <div class="filter-button-list">
             <div class="button-block">
-                <button class="filter-button">All</button>
+                <button class="filter-button" onclick="updatePromotionList(this.value)" value="all">All</button>
             </div>
             <div class="button-block">
-                <button class="filter-button">Discount Type</button>
+                <button class="filter-button" onclick="updatePromotionList(this.value)" value="discount">Discount Type</button>
             </div>
             <div class="button-block">
-                <button class="filter-button">Reduction Type</button>
+                <button class="filter-button" onclick="updatePromotionList(this.value)" value="reduction">Reduction Type</button>
             </div>
         </div>
         <div class="table-block">
-            <table class="data-table">
+            <table class="data-table" id="promotion-table">
                 <thead>
                 <tr>
                     <th>Id</th>
@@ -67,23 +67,7 @@
                     <th>Description</th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>promotion 1</td>
-                    <td>2022.07.12</td>
-                    <td>202207.12</td>
-                    <td>discount</td>
-                    <td>hello</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>promotion 2</td>
-                    <td>2022.07.12</td>
-                    <td>2022.07.12</td>
-                    <td>reduction</td>
-                    <td>hello</td>
-                </tr>
+                <tbody id="promotion-table-data">
                 </tbody>
             </table>
         </div>

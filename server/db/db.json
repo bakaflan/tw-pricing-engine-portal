@@ -1,0 +1,20 @@
+{
+  "promotions": [
+    {
+      "id": "1",
+      "title": "promotion 1",
+      "startDate": "2022.07.12",
+      "endDate": "2022.07.12",
+      "type": "discount",
+      "description": "hello"
+    },
+    {
+      "id": "2",
+      "title": "promotion 2",
+      "startDate": "2022.07.1",
+      "endDate": "2022.07.13",
+      "type": "reduction",
+      "description": "not hello"
+    }
+  ]
+}
