@@ -56,5 +56,19 @@
 }
 
 .submit-btn{
+    padding: 10px 40px;
+    background: #666666;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.submit-block{
+    width: 60%;
+    display: flex;
     justify-content: flex-end;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
