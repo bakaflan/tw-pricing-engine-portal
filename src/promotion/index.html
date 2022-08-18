@@ -45,15 +45,9 @@
 <main>
     <div class="main-table-content">
         <div class="filter-button-list">
-            <div class="button-block">
-                <button class="filter-button" onclick="updatePromotionList(this.value)" value="all">All</button>
-            </div>
-            <div class="button-block">
-                <button class="filter-button" onclick="updatePromotionList(this.value)" value="discount">Discount Type</button>
-            </div>
-            <div class="button-block">
-                <button class="filter-button" onclick="updatePromotionList(this.value)" value="reduction">Reduction Type</button>
-            </div>
+                <button class="filter-button button-block" onclick="updatePromotionList(this.value)" value="all">All</button>
+                <button class="filter-button button-block" onclick="updatePromotionList(this.value)" value="discount">Discount Type</button>
+                <button class="filter-button button-block" onclick="updatePromotionList(this.value)" value="reduction">Reduction Type</button>
         </div>
         <div class="table-block">
             <table class="data-table" id="promotion-table">
